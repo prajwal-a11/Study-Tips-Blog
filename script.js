@@ -12,6 +12,10 @@ document.getElementById('taskList').ap
 pendChild(li);
 });
 }
+function toggleDarkMode() 
+{
+document.body.classList.toggle('dark');
+}
 window.onload = loadTasks;
 document.getElementById('taskList').ap 
 pendChild(li); 
