@@ -6,13 +6,11 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Study Tips</h1>
-<div class="tip">
-<h2>Tip 1</h2> <p>Take regular breaks.</p>
-</div>
-<div class="tip">
-<h2>Tip 2</h2> <p>Use active recall while studying.</p>
-</div>
-<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  <h1>Notes</h1>
+  <twxtarea id="noteAtrea"
+            placeholder="writes your notes here...'></textarea>
+                         <button oneclick="saveNote()">save</button>
+                                                      <div id="savesnotes"></div>
+                                                                          <script src="script.js"></script>
 </body>
 </html>
